@@ -1,0 +1,91 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .content {
+    flex-grow: 1;
+  background-image: url("images/bg-pattern-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding:100px;
+  }
+  .logo {
+    padding-bottom: 20px;
+}
+.logo img {
+    
+    margin-top: 2px;
+    height: 40px;
+}
+  
+  h1 {
+    font-size: 50px;
+  color: #131111;
+  font-family: Josefin Sans', sans-serif;
+  }
+  h1 .highlight {
+    color: #F19B9C;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #F19B9C;
+  }
+  
+  input {
+    width: 400px;
+    padding: 15px;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    transform: translate(30px);
+}
+button {
+    width: 80px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid hsl(0, 36%, 70%);
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    transform: translateX(-30px);
+}
+input:invalid {
+    border: 2px solid hsl(0, 93%, 68%);
+}
+#error {
+    transform: translateX(-40px);
+    display: none;
+    visibility: hidden;
+} 
+
+  .shoppers-image {
+    flex-shrink: 0;
+    margin-left: 0px;
+  }
+  
+  .shoppers-image img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  footer {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
